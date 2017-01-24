@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+body {
+  font-family: 'Varela Round', sans-serif;
+  background-color: #462E0A;
+}
+a {
+  text-decoration: none;
+}
+header {
+  height: 111px;
+  background: #635541;
+  background: -moz-linear-gradient(top, #635541 0%, #643c00 100%);
+  background: -webkit-linear-gradient(top, #635541 0%, #643c00 100%);
+  background: linear-gradient(to bottom, #635541 0%, #643c00 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#635541', endColorstr='#643c00', GradientType=0);
+  -webkit-box-shadow: 0px 5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.15);
+  position: relative;
+  z-index: 10;
+}
+header .ke-menu {
+  text-align: right;
+}
+header .row {
+  padding-top: 0;
+}
+header .logo {
+  background: url(images/logo_mit.png);
+  background-repeat: no-repeat;
+  width: 389px;
+  height: 52px;
+  margin-top: 30px;
+}
+header nav {
+  height: 111px;
+  overflow: hidden;
+}
+header nav .show-mobile {
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  background-color: transparent;
+  color: #dedede;
+  font-weight: 600;
+}
+header nav .show-mobile .mobile-menu {
+  background-color: #462E0A;
+}
+header nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+header nav ul li {
+  display: inline-block;
+  padding: 10px 0px 0px 40px;
+  /* Version 1: einfach einblenden
+        &:hover {
+          ul {
+            display: block;
+            */
+  /*Version 2: ausfahren und einfaden per css3*/
+  /*
+            opacity: 1;
+            max-height: 400px
+          }
+        }*/
+}
+header nav ul li ul {
+  text-align: left;
+  position: absolute;
+  background-color: #635541;
+  top: 111px;
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  /* Version 1: Einfach einblenden */
+  /* display: none;*/
+  /* Version 2: Ausfahren und Einfaden per CSS3 */
+  /*
+          transition: max-height 1.2s, opacity 0.7s;
+          opacity: 0;
+          max-height: 0px;
+          overflow: hidden;
+          */
+  /*Version 3: Version 2 per Javascript / jQuery */
+  opacity: 0;
+  /* Das Untermenü ausgeblendet,... */
+  max-height: 0px;
+  /* ... hat keine Höhe ... */
+  overflow: hidden;
+  /* ... sich darin befindliche Inhalte werden "abgeschnitten". */
+}
+header nav ul li ul li {
+  display: block;
+  padding: 2px 8px;
+}
+header nav ul li ul li a {
+  line-height: 2em;
+  font-size: 0.9em;
+}
+header nav ul li ul li ul {
+  display: none;
+}
+header nav ul li a {
+  line-height: 111px;
+  color: #dedede;
+  font-size: 1.1em;
+}
+header nav ul li a:hover {
+  color: #f2f2f2;
+}
+header nav select {
+  margin: 53px 0 0 120px;
+}
+@media only screen and (max-width: 960px) {
+  header .logo {
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: 0 14px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  header .ke-logo {
+    margin-top: -30px;
+    width: 100%;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header .logo {
+    background-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+  }
+  .ke-menu {
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .show-mobile {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+  }
+  .show-mobile .mobile-menu {
+    padding-left: 20px;
+  }
+}
+.ke-subheader {
+  overflow: hidden;
+  height: 107px;
+  background: #605546;
+}
+.ke-subheader .behind {
+  position: absolute;
+  width: 100%;
+  height: 107px;
+}
+.ke-subheader .behind .left {
+  display: inline-block;
+  height: 107px;
+  width: 50%;
+}
+.ke-subheader .behind .right {
+  display: inline-block;
+  height: 107px;
+  width: 50%;
+  background: #898176;
+}
+.ke-subheader .before {
+  position: relative;
+  z-index: 1;
+  background: url('images/bg-subheader.png');
+  height: 107px;
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ke-content {
+  padding: 2em 0;
+  background: #eceae5;
+}
+.ke-content-gallery {
+  background: #121415;
+}
+.unslider {
+  position: relative;
+  overflow: auto;
+}
+.unslider li {
+  list-style: none;
+}
+.unslider ul {
+  padding: 0;
+  margin: 0;
+}
+.unslider ul li {
+  float: left;
+  height: 400px;
+}
+.unslider .dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+}
+.unslider .dots li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  text-indent: -999em;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: .4;
+  -webkit-transition: background .5s, opacity .5s;
+  -moz-transition: background .5s, opacity .5s;
+  transition: background .5s, opacity .5s;
+}
+.unslider .dots li .active {
+  background: #fff;
+  opacity: 1;
+}
+.ke-player {
+  background: url('images/bg-player.png');
+  height: 81px;
+  border-top: 1px solid #c7c7c7;
+  -webkit-box-shadow: 0px 6px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 6px rgba(0, 0, 0, 0.3);
+}
+footer {
+  padding-top: 1.25em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+footer h4 {
+  color: #eceae5;
+}
+footer ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+footer ul a {
+  color: #dedede;
+}
+footer ul a:hover {
+  color: #f2f2f2;
+}
+footer .ke-footer-test4 ul li {
+  display: inline-block;
+}
+footer .ke-footer-test4 img {
+  width: 38px;
+  height: 38px;
+  -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
