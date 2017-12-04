@@ -1,40 +1,20 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*" />
+    <option name="customScope" value="Project 'Projektplanung'" />
+    <option name="defaultScopeName" value="Project 'Projektplanung'" />
+    <option name="SEARCH_SCOPE" value="Project 'Projektplanung'" />
     <recentFileMasks>
+      <mask>*.properties</mask>
+      <mask>*.html</mask>
+      <mask>*.jsp</mask>
+      <mask>*.xml</mask>
+      <mask>*.java</mask>
+      <mask>*.js</mask>
       <mask>*.as</mask>
-      <mask>*.mxml</mask>
       <mask>*.css</mask>
-      <mask>*.cs</mask>
-      <mask>*.c</mask>
-      <mask>*.less</mask>
-      <mask>*.les</mask>
-      <mask>*.le</mask>
-      <mask>*.l</mask>
+      <mask>*.mxml</mask>
       <mask>*.php</mask>
-      <mask>*.ph</mask>
-      <mask>*.p</mask>
-      <mask>*.</mask>
-      <mask>*ö</mask>
-      <mask>*pohp</mask>
-      <mask>*poh</mask>
-      <mask>*po</mask>
-      <mask>*js</mask>
-      <mask>*j</mask>
-      <mask>*css</mask>
-      <mask>*cs</mask>
-      <mask>*c</mask>
-      <mask>*php</mask>
-      <mask>*ph</mask>
-      <mask>*p</mask>
-      <mask>*less</mask>
-      <mask>*les</mask>
-      <mask>*le</mask>
-      <mask>*l</mask>
-      <mask>*</mask>
+      <mask>*.less</mask>
     </recentFileMasks>
   </component>
 </application>
