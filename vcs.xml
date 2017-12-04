@@ -6,6 +6,22 @@
           <option name="url" value="https://MaikSoellner@bitbucket.org/dcsolutiondev/ronnefeldt.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@bitbucket.org:dcsolutiondev/dc-nav2016.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://MaikSoellner@bitbucket.org/dcsolutiondev/dc-nav2016.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://MaikSoellner@bitbucket.org/dcsolutiondev/addinol.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://MaikSoellner@bitbucket.org/dcsolutiondev/lks-fork.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Projects" />
