@@ -1,0 +1,7 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern=".autoloader.inc.php.swp" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>
