@@ -2,7 +2,10 @@
   <component name="RemoteServers">
     <remote-server name="Docker" type="docker">
       <configuration>
-        <option name="apiUrl" value="localhost:8080" />
+        <option name="apiUrl" value=" " />
+        <option name="pathMappings">
+          <list />
+        </option>
       </configuration>
     </remote-server>
   </component>
