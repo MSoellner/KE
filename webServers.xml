@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="2b9e092b-363f-45e2-9781-c6d5de5321d1" name="srv10 - Projektplanung" url="http://srv10.dc-cluster.de">
-        <fileTransfer host="srv10.dc-cluster.de" port="21" rootFolder="/htdocs" password="dfcedfcfdfcbdfcedfe2dfcfdfc9dff3dfdfdfc9dfc2dfebdfdedfc5dfdedf9d" username="web2186">
+        <fileTransfer host="srv10.dc-cluster.de" port="21" rootFolder="/htdocs/projektplanung" username="web2186" password="dfcedfcfdfcbdfcedfe2dfcfdfc9dff3dfdfdfc9dfc2dfebdfdedfc5dfdedf9d">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>
